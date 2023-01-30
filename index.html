@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="left-half">
+      <div class="logo">
+        <img src="./odin-lined.png" alt="Odin Logo" class="logo-image" />
+        <p class="logo-text">ODIN</p>
+      </div>
+      <footer>
+        <p class="footer">
+          Photo by
+          <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on
+          <a href="https://unsplash.com/">Unsplash</a>.
+        </p>
+      </footer>
+    </div>
+
+    <div class="right-half">
+      <p class="form-heading">
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams.
+      </p>
+      <p class="form-heading">Sign up <span>now</span> to get started.</p>
+      <p class="form-heading form-heading-2">
+        You <span>know</span> you want to.
+      </p>
+      <form action="#" method="post">
+        <div class="inputs">
+          <fieldset>
+            <h1>Let's do this!</h1>
+
+            <ul>
+              <li>
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" name="first_name" id="first-name" required/>
+              </li>
+              <li>
+                <label for="last-name">LAST NAME</label>
+                <input type="text" name="last_name" id="last-name" />
+              </li>
+              <li>
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" required/>
+              </li>
+              <li>
+                <label for="phone-number">PHONE NUMBER</label>
+                <input type="tel" name="phone_number" id="phone-number" required />
+              </li>
+              <li>
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" required/>
+                <span></span>
+              </li>
+              <li>
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  name="confirm_password"
+                  id="confirm-password" required/>
+              </li>
+            </ul>
+          </fieldset>
+        </div>
+
+        <button type="submit">Create Account</button>
+        <p class="log-in">
+          Already have an account? <a href="#" class="login-page">Log in</a>
+        </p>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
